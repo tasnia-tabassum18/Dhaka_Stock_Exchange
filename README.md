@@ -29,4 +29,13 @@ Some of the data such as company details and other information was collected by 
 
 <i> Apart from these, there are many more uses of Web Scraping</i>
 
-<h3> How the web scraping was carried out in this repo?</h3>
+<h3> How the web scraping was carried out in this repo?</h3><br>
+<ol>
+  <li>DSE's website was inspected</li>
+  <li>The class where the data we want was noted</li>
+  <li>BeautifulSoup was used to get response from the website</li>
+  <li>Dataframe was created to create the table</li>
+  <li>Data was inserted by scraping for each column of the dataframe </li>
+  <li>Dataframe was converted into two csv files: companies and holdings </li>
+  
+</ol>
