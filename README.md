@@ -39,3 +39,23 @@ Some of the data such as company details and other information was collected by 
   <li>Dataframe was converted into two csv files: companies and holdings </li>
   
 </ol>
+<h1>From csv files to PostgreSQL Database</h1>
+
+<ol>
+  
+  <li>A database was created in PostgreSQL</li>
+  <li>Psycopg2 library was used to connect to the database</li>
+  <li>Table was created in the database according to the parameters of the csv file data using python</li>
+  <li>A loop was used to enter all the data from the csv file to the table in the database</li>
+  
+</ol>
+
+<h1>Data Visualization</h1>
+
+<ol>
+  
+  <li>Microsoft PowerBI was used to visualize the data</li>
+  <li>The extracted data of the csv file was transformed and loaded into PowerBI</li>
+  <li>Different cards, charts, filters, slicers and tables were used to show the data and comparison we needed to see</li>
+  
+</ol>
